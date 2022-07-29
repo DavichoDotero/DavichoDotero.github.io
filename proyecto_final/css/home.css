@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    background-color: #745fbe;
+}
+header{
+    width: 100%;
+    height: 90px;
+    background: blue;
+}
+h1{
+    text-align: center;
+    position: relative;
+    top: 20px;
+    color: white;
+}
+#cabecera{
+    text-align: center;
+    position: relative;
+    top: 90px;
+   
+}
+#pregunta{
+    text-align: center;
+    position: relative;
+    bottom: 380px;
+    font-size: 30px;
+}
+#respuestas{
+    position: relative;
+    top: 90px;
+    left: 730px;
+    
+}
+#boton{
+    position: relative;
+    top: 100px;
+    left: 700px;
+}
+.boton{
+    width: 150px;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}

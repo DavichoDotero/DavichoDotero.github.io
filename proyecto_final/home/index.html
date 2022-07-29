@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/home.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="../js/preguntas.js"></script>
+</head>
+
+<body onload="getImage()">
+
+
+
+    <header>
+
+        <h1>Juego Trivial</h1>
+
+    </header>
+
+    <div id="cabecera">
+
+        <img src="" id="imagen" width="800" height="400">
+
+    </div>
+
+    <div id="pregunta">¿Por qué lo pájaros pían?</div>
+
+    <div id="respuestas"><input type="radio" name="pp" value="0"><label>Tienen hambre</label><br>
+
+        <input type="radio" name="pp" value="1"><label>Están contentos</label><br>
+        <input type="radio" name="pp" value="2"><label>Tienen frío</label><br>
+        <input type="radio" name="pp" value="3"><label>Están tristes</label><br>
+
+    </div>
+    <div id="boton">
+
+
+        <input class="boton" type="button" value="Comprobar" onclick="comprobar()">
+
+    </div>
+
+
+
+
+
+    <audio src="../musiquita/bienhecho.mp3" id="bien"></audio>
+
+    <audio src="../musiquita/malhecho.mp3" id="mal"></audio>
+
+
+    
+</body>
+
+</html>
